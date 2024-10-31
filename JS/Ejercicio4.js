@@ -1,8 +1,7 @@
 /* Palíndromo
 Escriba un programa que solicite una palabra o frase (puede estar en mayúsculas, tener espacios y puntuación). Determine si la frase o palabra es un palíndromo o no. Ignore la puntuación, los espacios y las letras mayúsculas.*/
-
-const entrada = prompt("Introduce una palabra o frase:");
-
+alert("Ejercico 4")
+const entrada = prompt("Ingrese su palabra")
 function palindromo(frase) {
     const palabra = frase
         .replace(/[^a-zA-Z0-9]/g, '') // Eliminamos los caracteres que no son admitidos

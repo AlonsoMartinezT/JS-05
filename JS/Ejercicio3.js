@@ -3,6 +3,8 @@ Escriba un programa que pregunte al usuario la cantidad de segundos necesarios h
 Ejemplo de resultado : "Hora de dormir en 10 segundos".*/
 
 function alarma(){
+    alert("Ejercico 3")
+    console.log("ALARMA")
     let numero = parseInt(prompt("Ingrese la cantidad de segundos para la alarma"));
     if (isNaN(numero) || numero <= 0) {
         alert("Por favor, introduce un número válido de segundos.");
@@ -19,4 +21,3 @@ function alarma(){
         }, (numero - index) * 1000); // Calculamos el tiempo de espera
     }
 }
-alarma()

@@ -3,6 +3,8 @@ Escriba un programa que le solicite al usuario sus datos: nombre de usuario, eda
 
 // Función para recopilar información del usuario
 function perfilUsuario(){
+    alert("Ejercico 1")
+    console.log("PERFIL DE USUARIO");
     const nombreUsuario = prompt("Ingrese su nombre de usuario");
     const edad = prompt("Ingrese su edad");
     const peliculas = []
@@ -20,4 +22,4 @@ function perfilUsuario(){
     console.log(`Su edad es: ${edad}`);
     peliculas.forEach(pelicula=>{console.log(`Su pelicula favorita  es: ${pelicula}`)});
 }
-perfilUsuario()
+
