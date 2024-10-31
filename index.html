@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Botones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>JS-05</title>
     <script src="./JS/Ejercicio1.js" defer></script>
     <script src="./JS/Ejercicio2.js" defer></script>
     <script src="./JS/Ejercicio3.js" defer></script>
     <script src="./JS/Ejercicio4.js" defer></script>
     <script src="./JS/Ejercicio5.js" defer></script>
+    <script src="./JS/Ejercicio6.js" defer></script>
     <script>
         function Ejercicio1() {
             perfilUsuario(); // Llama a la función del primer script
@@ -17,23 +19,34 @@
         function Ejercicio2() {
             numeroAlto(); // Llama a la función del segundo script
         }
+
         function Ejercicio3() {
-            alarma(); // Llama a la función del segundo script
+            alarma(); // Llama a la función del tercer script
         }
+
         function Ejercicio4() {
-            palindromo(); // Llama a la función del segundo script
+            palindromo(); // Llama a la función del cuarto script
         }
+
         function Ejercicio5() {
-            calcularFactorial(); // Llama a la función del segundo script
+            calcularFactorial(); // Llama a la función del quinto script
+        }
+
+        function Ejercicio6() {
+            matrizPlana(); // Llama a la función del sexto script
         }
     </script>
 </head>
-<body>
-    <h1>Ejemplo de Llamar Scripts</h1>
-    <button onclick="Ejercicio1()">Ejercicio 1</button>
-    <button onclick="Ejercicio2()">Ejercicio 2</button>
-    <button onclick="Ejercicio3()">Ejercicio 3</button>
-    <button onclick="Ejercicio4()">Ejercicio 4</button>
-    <button onclick="Ejercicio5()">Ejercicio 5</button>
+<body class="d-flex flex-column justify-right-right align-items-right vh-50 ">
+    <center><h1>EJERCICIOS JS-05</h1></center>
+    <hr>
+    <div class="d-flex flex-column align-items-right">
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio1()">Ejercicio 1</button>
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio2()">Ejercicio 2</button>
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio3()">Ejercicio 3</button>
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio4()">Ejercicio 4</button>
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio5()">Ejercicio 5</button>
+        <button type="button" class="btn btn-info mb-2 m-3 " onclick="Ejercicio6()">Ejercicio 6</button>
+    </div>
 </body>
 </html>
